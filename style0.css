@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    color: brown;
+}
+.japanese{
+    display: flex;
+    justify-content: space-around;
+    min-height: 200px;
+    
+}
+.hiraorkata{
+    color: #D04F4F;
+    text-align: center;
+    font-size: 70px;
+    width: 250px;
+    height: 460px;
+    border: 5px solid #D04F4F; 
+    margin: 10px;
+}
+button{
+    border: 15px solid #D04F4F; 
+    background-color: blanchedalmond;
+}
+button:hover{
+    cursor: pointer;
+      transform: scale(1.05);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #181515;
+    color: white;
+  }}
