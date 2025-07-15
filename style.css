@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:50px;
+    color:brown;
+    border: 1px solid red;
+    margin: 10px;
+    font-display:auto ;
+}
+h1:hover{
+    color:#ff9633;
+}
+span{
+    color: rgb(255, 78, 8);
+    animation: changeColor 10s infinite;
+}
+@keyframes changeColor{
+    0% {color:red;}
+    25% {color: orange;}
+    50% {color: brown;}
+    75% {color: yellowgreen}
+    100% {color:rgb(255, 78, 8)}
+
+}
+span:hover{
+    color: brown;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #181515;
+    color: white;
+  }
+}
+.container{
+    
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.alphabets{
+    font-size: 100px;
+    border:1px solid green;
+    height: 300px;
+    width: 230px;
+    text-align: center;
+}
+.kana{
+    display: block;
+
+}
+.romaji{
+    font-size: 100px;
+}
+.alphabets:hover{
+    background-color: maroon;
+    transform: scale(1.1);
+    color: #181515;
+}
+.alphabets:active{
+    background-color: aqua;
+}
+.english{
+    font-size: 50px;
+}
